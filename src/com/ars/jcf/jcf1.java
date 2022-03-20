@@ -2,11 +2,10 @@ package com.ars.jcf;
 
 class jcf1{
 
-  public static void main(String args[]){
+  public static void main(String[] args){
 
-    String str = new String("Hello World !");
-
-    
+    System.out.println("Hello World!");
 
   }
+
 }

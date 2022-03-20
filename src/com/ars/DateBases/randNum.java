@@ -1,10 +1,6 @@
 package com.ars.DateBases;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 class randNum{
 
@@ -30,6 +26,7 @@ class randNum{
                 int count = rs.getInt(1);
                 System.out.println(" number in the table \"value\" : " + count);
             }*/
+
         } catch (SQLException sqlEx) {
             sqlEx.printStackTrace();
         } finally {
